@@ -13,6 +13,7 @@
     "modules-right": [
         "tray",
         "memory",
+        "cpu",
         "network",
         "wireplumber",
         "battery",
@@ -54,6 +55,12 @@
     "memory": {
         "interval": 5,
         "format": "󰍛 {}%",
+        "tooltip-format": "󰍛 {used}/{total}\n {swapUsed}/{swapTotal}",
+        "max-length": 10
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "🧠{}%",
         "max-length": 10
     },
     "tray": {
