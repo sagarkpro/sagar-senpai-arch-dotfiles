@@ -16,6 +16,7 @@
         "cpu",
         "network",
         "wireplumber",
+        "custom/mic",
         "battery",
         "custom/power"
     ],
@@ -95,13 +96,18 @@
             "headphone": "",
             "default": ["󰖀","󰕾",""]
         },
-        "on-click": "pamixer -t",
+        "on-click": "~/.config/rofi/audio/rofiAudioOp.sh &",
         "scroll-step": 1
     },
     "custom/logo": {
         "format": "  ",
         "tooltip": false,
         "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+    },
+    "custom/mic": {
+        "format": "🎙",
+        "tooltip": false,
+        "on-click": "~/.config/rofi/audio/rofiAudioIp.sh &"
     },
     "battery": {
         "format": "{capacity}% {icon}",

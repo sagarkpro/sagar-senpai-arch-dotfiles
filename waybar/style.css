@@ -61,7 +61,8 @@ window#waybar.hidden {
 #clock,
 #tray,
 #cpu,
-#swap {
+#swap,
+#custom-mic {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
@@ -86,7 +87,7 @@ window#waybar.hidden {
   color: #1793d1;
 }
 
-#memory, #cpu, #swap {
+#memory, #cpu, #swap, #custom-mic {
   /* background-color: #fab387; */
   background-color: #27e6ec;
 }
